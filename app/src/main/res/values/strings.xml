@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Act1MiravetePerezJuan</string>
+    <string name="Intro">Introduce tus datos para calcular la retención fiscal correspondiente a tu situación. Tu información será tratada de forma segura y confidencial.</string>
+    <string name="salario_anual">Introduce tu salario anual:</string>
+    <string name="_25000">25000</string>
+    <string name="introduzca_el_num_de_pagas">Introduzca el número de pagas:</string>
+    <string name="_12">12</string>
+    <string name="introduzca_su_edad">Introduzca su edad:</string>
+    <string name="_25">25</string>
+    <string name="introduzca_su_grupo_profesional">Introduzca su grupo profesional:</string>
+    <string name="administrativo">Administrativo</string>
+    <string name="indique_su_grado_de_discapacidad">Introduzca su grado de discapacidad:</string>
+    <string name="_33">33%</string>
+    <string name="introduzca_su_estado_civil">Introduzca su estado civil:</string>
+    <string name="soltero">Soltero</string>
+    <string name="introduzca_el_n_mero_de_hijos">Introduzca el número de hijos:</string>
+    <string name="_2">2</string>
+    <string name="calcular">Calcular</string>
+    <string name="tu_resultado_es_el_siguiente">Tu resultado es el siguiente:</string>
+
+</resources>

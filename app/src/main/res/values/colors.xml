@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Naranja principal de Bankinter -->
+    <color name="bankinterOrange">#FF6600</color> <!-- Color naranja distintivo de Bankinter, utilizado para fondos o énfasis en botones -->
+
+    <!-- Gris oscuro para textos y elementos secundarios -->
+    <color name="bankinterDarkGray">#4D4D4D</color> <!-- Gris oscuro para textos principales y subtítulos -->
+
+    <!-- Gris claro para fondos -->
+    <color name="bankinterLightGray">#F0F0F0</color> <!-- Gris claro utilizado para fondos y áreas neutrales -->
+
+    <!-- Gris intermedio para líneas divisorias o bordes -->
+    <color name="bankinterMediumGray">#CCCCCC</color> <!-- Gris medio utilizado para divisores o bordes de elementos -->
+
+    <!-- Color de error o advertencia -->
+    <color name="bankinterErrorRed">#D32F2F</color> <!-- Rojo para mensajes de error o advertencia -->
+
+    <!-- Color de éxito o confirmación -->
+    <color name="bankinterSuccessGreen">#4CAF50</color> <!-- Verde para mensajes de éxito o confirmación -->
+
+</resources>
