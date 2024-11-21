@@ -58,8 +58,6 @@ class ResultBankActivity : AppCompatActivity() {
         private fun evaluarSaludFinanciera(salarioNeto: Double, deducciones: Double, retencionIRPF: Double): Pair<String, Int> {
         // Calculamos el porcentaje de deducción
         val porcentajeDeduccion = deducciones / salarioNeto
-
-        // Declaramos las variables para la salud financiera y el color
         var salud = "mala"
         var color = Color.RED
 
