@@ -1,5 +1,6 @@
 package com.example.act1miraveteperezjuan
 
+import android.graphics.Color
 import android.os.Bundle
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
@@ -46,6 +47,34 @@ class ResultBankActivity : AppCompatActivity() {
         resultTextView.textSize = 20f // Tamaño de texto más grande
         resultTextView.setTextColor(getColor(R.color.bankinterDarkGray)) // Color negro para el texto
         resultTextView.setLineSpacing(1.5f, 1.0f) // 1.5f es el espacio adicional entre líneas
+
+        val saludTextView = findViewById<TextView>(R.id.resultTVSalud)
+        val (saludFinanciera, color) = evaluarSaludFinanciera(salarioNeto, deduccionesTotal, retencionIRPF)
+        saludTextView.text = saludFinanciera
+        saludTextView.textSize = 22f
+        saludTextView.setTextColor(color)
     }
+
+        private fun evaluarSaludFinanciera(salarioNeto: Double, deducciones: Double, retencionIRPF: Double): Pair<String, Int> {
+        // Calculamos el porcentaje de deducción
+        val porcentajeDeduccion = deducciones / salarioNeto
+
+        // Declaramos las variables para la salud financiera y el color
+        var salud = "mala"
+        var color = Color.RED
+
+        // Determinamos la salud financiera y el color según las condiciones
+        if (salarioNeto > 25000 && porcentajeDeduccion < 0.1 && retencionIRPF < 0.2) {
+            salud = "buena"
+            color = Color.GREEN
+        } else if (salarioNeto > 15000 && porcentajeDeduccion < 0.2) {
+            salud = "media"
+            color = Color.YELLOW
+        }
+
+        // Devolvemos el texto y el color
+        return "Mi salud financiera es $salud" to color
+    }
+
 }
 

@@ -43,13 +43,25 @@
     <TextView
         android:id="@+id/resultTVBank"
         android:layout_width="349dp"
-        android:layout_height="200dp"
+        android:layout_height="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/textSalario"
-        app:layout_constraintVertical_bias="0.064"
+        app:layout_constraintVertical_bias="0.023"
+        tools:text="Esto es un texto de prueba para ver como me queda" />
+
+    <TextView
+        android:id="@+id/resultTVSalud"
+        android:layout_width="349dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/resultTVBank"
+        app:layout_constraintVertical_bias="0.006"
         tools:text="Esto es un texto de prueba para ver como me queda" />
 
 
